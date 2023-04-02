@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/pago.css">
+    <title>Pago</title>
+</head>
+
+<body>
+
+    <div class="divpago">
+        
+        <form>
+            <h3>Pago</h3>
+            <!-- Nombre -->
+            <label for="fname" id="nombre">Nombre</label>
+            <input type="text" id="fname" name="firstname" placeholder="Ingresa tu nombre">
+            <!-- Apellido -->
+            <label for="lname">Apellido</label>
+            <input type="text" id="lname" name="lastname" placeholder="Ingresa tu apellido">
+            <!-- Correo -->
+            <label for="mail">Correo</label>
+            <input type="email" id="mail" placeholder="Ingresa tu correo">
+            <!-- Metodo de pago -->
+            <label for="fpago" name="fpago">Metodo pago: </label>
+            <select id="fpago" name="fpago">
+                <option value="wepay">Wepay</option>
+                <option value="paypal">PayPal</option>
+            </select>
+            <br>
+            <!-- Total -->
+            <label for="ftotal">Total: </label>
+            <input type="text" id="ftotal" placeholder="  $100.000" readonly>
+            <br>
+            <!-- Boton pago -->
+            <div class="dbtnpago">
+                <button type="submit">Pagar</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>
