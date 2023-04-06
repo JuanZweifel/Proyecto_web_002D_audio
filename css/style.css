@@ -1,0 +1,31 @@
+.navbar {
+    background-color: rgb(41, 41, 41);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar hr {
+    color: black;
+}
+
+.divcarrusel {
+    padding-top: 6%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+/* estilo footer */
+.estilofooter {
+    background-color: rgb(41, 41, 41);
+    margin-bottom: -1%;
+    margin-top: 2%;
+}
+
+.estilofooter p {
+    color: white;
+    text-align: center;
+}
