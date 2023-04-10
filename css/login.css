@@ -93,6 +93,15 @@ footer{
         font-size: small;
     }
 
+    .form-login button a{
+        font-size: small;
+        color: #f2f2f2;
+    }
+
+    .btn-primary{
+        background-color: #5b4caf;
+    }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px){

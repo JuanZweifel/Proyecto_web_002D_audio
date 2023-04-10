@@ -2,12 +2,17 @@ body{
     background: #414141;
 }
 
-label{
+.form-pago{
+    margin-top: 40px;
+    padding: 30px;
+}
+
+.form-pago label{
     font-family: sans-serif;
     width: 100%;
 }
 
-h3{
+.form-pago h3{
     font-family: sans-serif;
     color: #414141;
 }
@@ -22,7 +27,7 @@ h3{
     border-radius: 15px;
 }
 
-input{
+.form-pago input{
     width: 100%;
     height: 40px;
     border-color: #ccc;
@@ -30,7 +35,7 @@ input{
     border-radius: 15px;
 }
 
-select {
+.form-pago select {
     width: 40%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -40,7 +45,7 @@ select {
     box-sizing: border-box;
 }
 
-button[type=submit] {
+.form-pago button[type=submit] {
     width: 20%;
     background-color: #4CAF50;
     font-size: medium;
