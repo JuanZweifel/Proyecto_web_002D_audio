@@ -158,11 +158,9 @@ div h5{
     display: inline-block;
 }
 
-input{
-    margin-bottom: 20%;
-}
 
-button[type=submit] {
+
+.btn1{
 
     width: 100%;
     background-color: #5b4caf;
@@ -191,3 +189,5 @@ border-style: groove;
     padding: 45px;
     text-align: justify;
 }
+
+
