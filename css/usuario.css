@@ -44,10 +44,20 @@ body {
 
 @media screen and (max-width: 600px){
     .div-cont1{
-        padding: 10px;
+        width: 100%;
         order: 1;
+        
     }
     
+    .div-contenido {
+        width: 100%;
+        padding: 10px;
+    }
+    
+
+    section{
+        margin-top: 80px;
+    }
 
     body{
         height: 120vh;
