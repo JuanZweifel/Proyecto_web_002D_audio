@@ -21,10 +21,8 @@
 /* estilo footer */
 .estilofooter {
     background-color:#5b4caf ;
-    position: absolute;
+    height: 100px;
     width: 100%;
-    bottom: 0;
-    margin-top: 5%;
 }
 
 .estilofooter p {
