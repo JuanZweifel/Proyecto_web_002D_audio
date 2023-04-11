@@ -1,0 +1,35 @@
+body{
+    background-color: #F5F5F5;
+}
+
+
+
+.div-contenido{
+    padding: 10px;
+}
+
+.div-2{
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.btn1{
+
+    width: 100%;
+    background-color: #5b4caf;
+    font-size: medium;
+    color: white;
+    padding: 3%;
+    margin-top: 8%;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.img-user{
+    width: 50px;
+    display: inline-block;
+    border-style: groove;
+    border-radius: 10px;
+
+}
