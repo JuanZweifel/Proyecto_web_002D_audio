@@ -1,19 +1,27 @@
-body{
+body {
     background-color: #F5F5F5;
+    height: 100vh;
+    position: relative;
 }
 
 
 
-.div-contenido{
+.div-contenido {
     padding: 10px;
 }
 
-.div-2{
-    background-color: #ffffff;
-    padding: 20px;
+.div-cont1{
+    padding: 10px;
 }
 
-.btn1{
+.div-2 {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+
+}
+
+.btn1 {
 
     width: 100%;
     background-color: #5b4caf;
@@ -26,10 +34,22 @@ body{
     cursor: pointer;
 }
 
-.img-user{
+.img-user {
     width: 50px;
     display: inline-block;
     border-style: groove;
     border-radius: 10px;
 
+}
+
+@media screen and (max-width: 600px){
+    .div-cont1{
+        padding: 10px;
+        order: 1;
+    }
+    
+
+    body{
+        height: 120vh;
+    }
 }

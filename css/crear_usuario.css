@@ -1,5 +1,8 @@
 body{
     background: #414141;
+    position: relative;
+    height: 100vh;
+    margin: 0;
 }
 
 .form-user{
@@ -62,10 +65,20 @@ footer{
     height: 70px;
 }
 
+section{
+    margin-top: 70px;
+}
+
 @media screen and (max-width: 600px){
+    body{
+        height: 120vh;
+    }
+
     .form-user{
-        width: 90%;
-        padding: 35px;
+        width: 80%;
+        padding: 25px;
+        margin-top: 100%;
+        
     }
 
     .form-user input{
@@ -95,12 +108,26 @@ footer{
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px){
-    .form-login{
+    .form-user{
         width: 60%;
         padding: 35px;
     }
 
-    .form-login input{
+    .form-user input{
+        font-size: small;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1000px){
+    .form-user{
+        width: 40%;
+        padding: 35px;
+        margin-top: 500px;
+    }
+
+    .form-user user{
         font-size: small;
         padding: 10px;
     }

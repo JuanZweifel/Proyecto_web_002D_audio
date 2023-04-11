@@ -21,8 +21,10 @@
 /* estilo footer */
 .estilofooter {
     background-color:#5b4caf ;
-    margin-bottom: -1%;
-    margin-top: 2%;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin-top: 5%;
 }
 
 .estilofooter p {
@@ -48,3 +50,4 @@ h1 {
 .margenbarramenu{
     margin-top: 10%;
 }
+

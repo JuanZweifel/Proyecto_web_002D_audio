@@ -1,15 +1,7 @@
-/* .col-7 {
-    border-color: rgb(25, 0, 255);
-    border-width: 1px;
-    border-style: dotted; 
-    }*/
-
-
-
-
 body{
     background: #ffffff;
-    margin: 0;
+    position: relative;
+    min-height: 120vh;
 }
 
 * {
@@ -191,3 +183,14 @@ border-style: groove;
 }
 
 
+@media screen and (max-width: 600px){
+    .div-cont1{
+        padding: 10px;
+        order: 1;
+    }
+    
+
+    body{
+        height: 120vh;
+    }
+}
