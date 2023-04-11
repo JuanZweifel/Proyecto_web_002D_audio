@@ -1,4 +1,4 @@
-body{
+body {
     background: #ffffff;
     position: relative;
     min-height: 120vh;
@@ -105,17 +105,17 @@ img {
     opacity: 1;
 }
 
-.derecha{
+.derecha {
     height: 550px;
     padding: 30px;
     border-style: groove;
 }
 
-div h5{
+div h5 {
     color: #464646;
 }
 
-.label-precio{
+.label-precio {
     margin-top: 40px;
     margin-bottom: 60px;
     font-size: xx-large;
@@ -123,12 +123,12 @@ div h5{
     text-align: center;
 }
 
-.precio{
+.precio {
     align-items: center;
     text-align: center;
 }
 
-.divcant{
+.divcant {
 
     width: 100%;
     display: inline-block;
@@ -136,23 +136,23 @@ div h5{
     text-align: center;
 }
 
-.btncant{
+.btncant {
     display: inline-block;
     height: 40px;
     width: 10px;
 }
 
-.form-control{
+#form1 {
     width: 100px;
 }
 
-.form-outline{
+.form-outline {
     display: inline-block;
 }
 
 
 
-.btn1{
+.btn1 {
 
     width: 100%;
     background-color: #5b4caf;
@@ -165,26 +165,147 @@ div h5{
     cursor: pointer;
 }
 
-div img{
-border-style: groove;
+.container div img {
+    border-style: groove;
 }
 
 
-.texto{
+.texto {
     width: 100%;
     padding: 45px;
     text-align: justify;
 }
 
+.oculto{
+    display: none;
+}
 
-@media screen and (max-width: 600px){
-    .div-cont1{
-        padding: 10px;
-        order: 1;
+.oculto2{
+    display: block;
+}
+
+@media screen and (min-width: 100px) and (max-width: 300px) {
+    .column {
+        width: 60px;
+        
     }
-    
 
-    body{
+    .col-7 {
+        width: 100%;
+    }
+
+    .prev,
+    .next {
+        font-size: 5px;
+    }
+
+    .derecha {
+        height: auto;
+
+    }
+
+
+    .container {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .oculto2{
+        display: none;
+    }
+
+    .col-5 {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+
+    body {
         height: 120vh;
     }
+
+
+    .column {
+        width: 75px;
+    }
+
+    .prev,
+    .next {
+        font-size: 5px;
+    }
+
+    .oculto{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 50px;
+        display: block;
+    }
+
+}
+
+
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+    .derecha {
+        height: auto;
+
+    }
+
+
+    .container {
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .oculto2{
+        display: none;
+    }
+
+    .col-7 {
+        width: 100%;
+    }
+
+    .col-5 {
+        margin-top: 30px;
+        width: 90%;
+    }
+
+
+    body {
+        height: 120vh;
+    }
+
+
+    .column {
+        width: 75px;
+    }
+
+    .prev,
+    .next {
+        font-size: 5px;
+    }
+
+    .oculto{
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin-top: 50px;
+        display: block;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1000px){
+    .derecha {
+        height: auto;
+    }
+    .column {
+        width: 100px;
+        
+    }
+
 }

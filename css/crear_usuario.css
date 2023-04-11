@@ -1,9 +1,8 @@
 body{
     background: #414141;
-    position: relative;
-    height: 100vh;
     margin: 0;
 }
+
 
 .form-user{
     border-radius: 40px;
@@ -12,9 +11,6 @@ body{
     margin-top: 25px;
     width: 38%;
     padding: 50px;
-    display: grid;
-    align-self: center;
-
 }
 
 .form-user label{
@@ -28,7 +24,7 @@ body{
 }
 
 .form-user h6{
-    margin-top: 5%;
+    margin-top: 8px;
     display: inline-block;
 }
 
@@ -60,25 +56,21 @@ body{
     text-align: center;
 }
 
-footer{
-    background-color: #5b4caf;
-    height: 70px;
-}
 
-section{
-    margin-top: 70px;
-}
 
-@media screen and (max-width: 600px){
+@media screen and (min-width: 100px) and (max-width: 600px){
+    section{
+        margin-top: 70px;
+    }
+
     body{
         height: 120vh;
     }
 
     .form-user{
-        width: 80%;
-        padding: 25px;
-        margin-top: 100%;
-        
+        width: 90%;
+        padding: 30px;
+        margin-top: 40px;
     }
 
     .form-user input{
@@ -107,7 +99,16 @@ section{
 
 }
 
+
 @media screen and (min-width: 600px) and (max-width: 1000px){
+    section{
+        margin-top: 70px;
+    }
+
+    body{
+        height: 120vh;
+    }
+
     .form-user{
         width: 60%;
         padding: 35px;
@@ -121,10 +122,14 @@ section{
 }
 
 @media screen and (min-width: 1000px){
+    body{
+        height: 120vh;
+    }
+
     .form-user{
         width: 40%;
-        padding: 35px;
-        margin-top: 500px;
+        padding: 50px;
+        margin-top: 100px;
     }
 
     .form-user user{
@@ -132,8 +137,4 @@ section{
         padding: 10px;
     }
 
-}
-
-.form-user{
-    margin-top: 8%;
 }

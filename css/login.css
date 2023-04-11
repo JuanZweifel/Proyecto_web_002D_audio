@@ -73,6 +73,10 @@ footer{
 }
 
 @media screen and (max-width: 600px){
+    body{
+        height: 120vh;
+    }
+
     .form-login{
         width: 90%;
         padding: 35px;
@@ -115,6 +119,7 @@ footer{
 }
 
 @media screen and (min-width: 600px) and (max-width: 1000px){
+
     .form-login{
         width: 60%;
         padding: 35px;
