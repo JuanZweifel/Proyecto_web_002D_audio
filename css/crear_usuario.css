@@ -63,10 +63,6 @@ body{
         margin-top: 70px;
     }
 
-    body{
-        height: 120vh;
-    }
-
     .form-user{
         width: 90%;
         padding: 30px;
@@ -105,10 +101,6 @@ body{
         margin-top: 70px;
     }
 
-    body{
-        height: 120vh;
-    }
-
     .form-user{
         width: 60%;
         padding: 35px;
@@ -122,10 +114,6 @@ body{
 }
 
 @media screen and (min-width: 1000px){
-    body{
-        height: 120vh;
-    }
-
     .form-user{
         width: 40%;
         padding: 50px;

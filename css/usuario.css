@@ -1,10 +1,12 @@
 body {
     background-color: #F5F5F5;
-    height: 100vh;
+
     position: relative;
 }
 
-
+section{
+    margin-top: 6rem;
+}
 
 .div-contenido {
     padding: 10px;
@@ -39,7 +41,6 @@ body {
     display: inline-block;
     border-style: groove;
     border-radius: 10px;
-
 }
 
 @media screen and (max-width: 600px){
