@@ -1,6 +1,8 @@
 body{
     background: #414141;
+    margin: 0;
 }
+
 
 .form-user{
     border-radius: 40px;
@@ -9,9 +11,6 @@ body{
     margin-top: 25px;
     width: 38%;
     padding: 50px;
-    display: grid;
-    align-self: center;
-
 }
 
 .form-user label{
@@ -25,7 +24,7 @@ body{
 }
 
 .form-user h6{
-    margin-top: 5%;
+    margin-top: 8px;
     display: inline-block;
 }
 
@@ -57,15 +56,17 @@ body{
     text-align: center;
 }
 
-footer{
-    background-color: #5b4caf;
-    height: 70px;
-}
 
-@media screen and (max-width: 600px){
+
+@media screen and (min-width: 100px) and (max-width: 600px){
+    section{
+        margin-top: 70px;
+    }
+
     .form-user{
         width: 90%;
-        padding: 35px;
+        padding: 30px;
+        margin-top: 40px;
     }
 
     .form-user input{
@@ -94,16 +95,34 @@ footer{
 
 }
 
+
 @media screen and (min-width: 600px) and (max-width: 1000px){
-    .form-login{
+    section{
+        margin-top: 70px;
+    }
+
+    .form-user{
         width: 60%;
         padding: 35px;
     }
 
-    .form-login input{
+    .form-user input{
         font-size: small;
         padding: 10px;
     }
 
+}
+
+@media screen and (min-width: 1000px){
+    .form-user{
+        width: 40%;
+        padding: 50px;
+        margin-top: 100px;
+    }
+
+    .form-user user{
+        font-size: small;
+        padding: 10px;
+    }
 
 }
