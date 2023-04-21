@@ -17,14 +17,15 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-     <!-- inicio barra de menu -->
-     <nav class="navbar navbar-expand-lg bg-body-tertiary nav fixed-top">
+    <!-- inicio barra de menu -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary nav fixed-top">
         <div class="container-fluid">
-            <divicono class="d-flex" style="padding-left: 3%; padding-right: 3%; color: white;">
+            <div class="d-flex" style="padding-left: 3%; padding-right: 3%; color: white;">
                 <a class="navbar-brand" href="index_principal.html">
                     <img src="img/home.webp" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                 </a>
-            </divicono>
+            </div>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -43,48 +44,65 @@
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
 
-                <divicono class="d-flex" style="padding-left: 3%; color: white;">
+                <div class="d-flex" style="padding-left: 3%; color: white;">
                     <a class="navbar-brand" href="carroCompra.html">
                         <img src="img/carro compra.png" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                     </a>
-                </divicono>
+                </div>
 
-                <divicono class="d-flex" style="padding-left: 1%; padding-right: 3%; color: white;">
+                <div class="d-flex" style="padding-left: 1%; padding-right: 3%; color: white;">
                     <a class="navbar-brand" href="login.html">
                         <img src="img/admin 2.webp" alt="Avatar Logo" style="width:40px;" class="rounded-pill">
                     </a>
-                </divicono>
+                </div>
 
             </div>
         </div>
     </nav>
+
     <!-- ----------------------------------------------------------------------- -->
 
-    <form class="form-login">
-        <h3>Inicio sesión</h3>
-        <!-- Mail -->
-        <label for="mail">Correo</label>
-        <input type="email" id="mail" placeholder="Ingrese su correo">
 
-        <br>
+    <div class="row m-0 mb-4">
+        <div class="col-lg-3">
 
-        <label for="contraseña">Contraseña</label>
-        <input type="password" id="contraseña" placeholder="Ingrese su contraseña">
-        <br>
-        <!-- Boton -->
-        <div>
-            <a class="btn btn-primary" href="usuario.html" role="button">Iniciar sesión</a>
-            <br> <br>
-            <a class="btn btn-primary" href="index_admin.html" role="button">Iniciar sesión admin</a>
+        </div>
+        <div class="col-lg-6">
+            <form class="form-login">
+                <h3>Inicio sesión</h3>
+                <!-- Mail -->
+
+                <div class="mt-3">
+                    <label for="mail">Correo</label>
+                    <input type="email" id="mail" placeholder="Ingrese su correo" name="email" required>
+                </div>
+
+                <div class="mt-3">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" placeholder="Ingrese su contraseña" required>
+                </div>
+                <!-- Boton -->
+                <div class="mt-3 text-center">
+                    <a class="btn btn-primary" type="submit" href="usuario.html" role="button">Iniciar sesión</a>
+
+                    <a class="btn btn-primary" href="index_admin.html" role="button">Iniciar sesión
+                        admin</a>
+                </div>
+
+
+                <div class="mt-3 text-center">
+                    <h6>¿No tienes una cuenta?</h6>
+                    <a href="crear_usuario.html">Crear cuenta</a>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-3">
+
         </div>
 
+    </div>
 
-        <div>
-            <h6>¿No tienes una cuenta?</h6>
-            <a href="crear_usuario.html">Crear cuenta</a>
-        </div>
-    </form>
-    <br>
+    
     <!-- footer -->
     <footer class="estilofooter mt-auto">
         <p>Siguenos en </p>
