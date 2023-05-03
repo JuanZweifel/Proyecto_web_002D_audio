@@ -1,5 +1,5 @@
 .navbar {
-    background-color: rgb(41, 41, 41);
+    background-color: #5b4caf;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -12,7 +12,7 @@
 }
 
 .divcarrusel {
-    padding-top: 6%;
+    padding-top: 1%;
     padding-left: 3%;
     padding-right: 3%;
     padding-bottom: 3%;
@@ -20,9 +20,9 @@
 
 /* estilo footer */
 .estilofooter {
-    background-color: rgb(41, 41, 41);
-    margin-bottom: -1%;
-    margin-top: 2%;
+    background-color:#5b4caf ;
+    height: 80px;
+    width: 100%;
 }
 
 .estilofooter p {
@@ -40,3 +40,12 @@ h1 {
     margin-bottom: 1%;
     color: blue;
 }
+
+.estiloinput{
+    margin-bottom: 5%;
+}
+
+.margenbarramenu{
+    margin-top: 10%;
+}
+
