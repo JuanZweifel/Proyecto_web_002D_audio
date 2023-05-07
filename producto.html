@@ -14,8 +14,13 @@
     <!-- Font Awesome 5 Icons-->
     <script src="https://kit.fontawesome.com/19e0d6ad15.js" crossorigin="anonymous"></script>
 
+    <script src="js/moneda.js"></script>
+
+    <script src="js/jquery-3.6.4.js"></script>
+
     <link rel="stylesheet" href="css/producto.css">
     <link rel="stylesheet" href="css/style.css">
+    
 
     <title>Producto</title>
 </head>
@@ -45,6 +50,21 @@
 
                 </div>
 
+                <div class="btn-group me-1" role="group" aria-label="">
+                    <div class="btn-group" role="group">
+                        <button id="dropdownId" type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                Moneda
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#btn_clp" onclick="clp(peso)">CLP</a>
+                            <a class="dropdown-item" href="#btn_dolar" onclick="dolar(res)">DOLAR</a>
+                            <a class="dropdown-item" href="#btn_euro" onclick="euro(res)">EURO</a>
+                            <a class="dropdown-item" href="#btn_bitcoin" onclick="bitcoin(res)">BITCOIN</a>
+                        </div>
+                    </div>
+                </div>
+
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success"
@@ -59,6 +79,8 @@
 
             </div>
         </div>
+
+        
     </nav>
     <!-- ----------------------------------------------------------------------- -->
 
@@ -125,7 +147,7 @@
                         </div>
 
                         <div class="precio">
-                            <label for="precio" class="label-precio">$129.990</label>
+                            <label for="precio" class="label-precio" id="precio">$129.990</label>
 
                             <div class="  divcant">
 
@@ -154,6 +176,7 @@
     </section>
     <br> <br>
 
+    
     <hr />
     <section>
         <div class="texto">
@@ -199,6 +222,12 @@
     </p>
 </footer>
 <!-- ------------------------------------------------------------------------------------------------ -->
+    <script>
+        var valor = document.getElementById("precio").textContent;
+        const res = valor.replace(/\D/g, "");
+        const peso = document.getElementById("precio").textContent;
+
+    </script>
 </body>
 
 </html>
