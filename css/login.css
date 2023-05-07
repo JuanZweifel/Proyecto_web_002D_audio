@@ -53,18 +53,6 @@ body {
     padding: 23px;
 }
 
-.form-login button[type=submit] {
-
-    width: 100%;
-    background-color: #5b4caf;
-    font-size: medium;
-    color: white;
-    padding: 3%;
-    margin-top: 8%;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
 
 
 
