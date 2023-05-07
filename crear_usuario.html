@@ -10,6 +10,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
 
     <!-- Font Awesome 5 Icons-->
     <script src="https://kit.fontawesome.com/19e0d6ad15.js" crossorigin="anonymous"></script>
@@ -72,7 +73,7 @@
             </div>
 
             <div class="col-lg-8">
-                <form class="form-user" action="index_principal.html">
+                <form class="form-user" action="index_principal.html" id="formulario" method="get">
                     <h3>Crear Usuario</h3>
                     <!-- Nombre -->
                     <div>
@@ -87,7 +88,7 @@
                     <!-- Rut -->
                     <div>
                         <label for="rut">Rut</label>
-                        <input type="text" id="rut" placeholder="XX.XXX.XXX-X" required>
+                        <input type="text" id="rut" placeholder="XXXXXXXX-X" required>
                     </div>
                     <!-- Mail -->
                     <div>
@@ -126,7 +127,7 @@
         </p>
     </footer>
     <!-- ------------------------------------------------------------------------------------------------ -->
-
+    <script src="js/log.js"></script>
 </body>
 
 </html>
