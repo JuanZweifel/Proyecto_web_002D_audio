@@ -1,6 +1,6 @@
 .navbar {
     background-color: #5b4caf;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 .navbar a {
@@ -89,7 +89,13 @@ divicono{
 .d-flex a{
     border-bottom-style: solid;
 }
+
+#moneda{
+    margin-bottom: 10px;
 }
+
+}
+
 
 
 
