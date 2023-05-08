@@ -1,6 +1,6 @@
 .navbar {
     background-color: #5b4caf;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
 }
 
 .navbar a {
@@ -48,4 +48,54 @@ h1 {
 .margenbarramenu{
     margin-top: 10%;
 }
+
+.celular p {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 991px) {
+
+.celular p {
+    display: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+.celular i {
+    display: block;
+    margin: 0%;
+    padding: 0%;
+}
+
+divicono{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.navbar-nav a {
+    font-family: sans-serif;
+    border-bottom-style: solid;
+}
+
+.navbar-brand a {
+    font-family: sans-serif;
+    border-bottom-style: solid;  
+}
+
+.d-flex a{
+    border-bottom-style: solid;
+}
+
+#moneda{
+    margin-bottom: 10px;
+}
+
+}
+
+
+
 
