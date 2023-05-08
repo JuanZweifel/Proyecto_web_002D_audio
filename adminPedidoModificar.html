@@ -50,30 +50,30 @@
         </div>
     </nav>
     <h3 class="m-3">idPedidos</h3>
-    <form class="m-3">
+    <form class="form-user m-3" id="formulario" method="get">
         <div class="mb-3 ">
             <label for="nroPedido" class="form-label">Nro.pedido</label>
-            <input type="number" class="form-control" id="nroPedido" aria-describedby="nombreHelp">
+            <input type="number" class="form-control" id="nroPedido" aria-describedby="nombreHelp" placeholder="1212" readonly>
         </div>
         <div class="mb-3">
             <label for="idProducto" class="form-label">idProducto</label>
-            <input type="number" class="form-control" id="idProducto">
+            <input type="number" class="form-control" id="idProducto" required>
         </div>
         <div class="mb-3">
             <label for="idCliente" class="form-label">idCliente</label>
-            <input type="number" class="form-control" id="idCliente">
+            <input type="number" class="form-control" id="idCliente" required>
         </div>
         <div class="mb-3">
             <label for="nombreCliente" class="form-label">nombreCliente</label>
-            <input type="text" class="form-control" id="nombreCliente">
+            <input type="text" class="form-control" id="nombre" required>
         </div>
         <div class="mb-3">
             <label for="cantidad" class="form-label">cantidad</label>
-            <input type="number" class="form-control" id="cantidad">
+            <input type="number" class="form-control" id="cantidad" required>
         </div>
         <button type="submit" class="btn btn-primary">Cambiar</button>
     </form>
     <a name="" id="" class="btn btn-danger btn-lg m-2" href="adminPedido.html" role="button">Volver</a>
 </body>
-
+<script src="js/admin.js"></script>
 </html>

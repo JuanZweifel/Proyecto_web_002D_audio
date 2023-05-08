@@ -50,26 +50,23 @@
         </div>
     </nav>
     <h3 class="m-3">idUsuario</h3>
-    <form class="m-3">
+    <form class="form-user m-3" id="formulario" method="get">
+        <div class="mb-3">
+            <label for="correoUsuario" class="form-label">Id</label>
+            <input type="email" class="form-control" id="id" placeholder="1212" readonly>
+        </div>
         <div class="mb-3 ">
             <label for="nombreUsuario" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombreUsuario" aria-describedby="nombreHelp">
+            <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" required>
         </div>
         <div class="mb-3">
             <label for="correoUsuario" class="form-label">Correo</label>
-            <input type="email" class="form-control" id="correoUsuario">
+            <input type="email" class="form-control" id="correo" required>
         </div>
-        <div class="mb-3">
-            <label for="correoUsuario" class="form-label">Otro</label>
-            <input type="email" class="form-control" id="correoUsuario">
-        </div>
-        <div class="mb-3">
-            <label for="correoUsuario" class="form-label">Otro</label>
-            <input type="email" class="form-control" id="correoUsuario">
-        </div>
-        <button type="submit" class="btn btn-primary">Cambiar</button>
+        <button type="submit" class="btn btn-primary">Modificar</button>
     </form>
     <a name="" id="" class="btn btn-danger btn-lg m-2" href="adminUsuario.html" role="button">Volver</a>
 </body>
+<script src="js/admin.js"></script>
 
 </html>

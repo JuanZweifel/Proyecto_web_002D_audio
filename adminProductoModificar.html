@@ -50,26 +50,27 @@
         </div>
     </nav>
     <h3 class="m-3">idProducto</h3>
-    <form class="m-3">
+    <form class="form-user m-3" id="formulario" method="get">
         <div class="mb-3 ">
             <label for="nombreProducto" class="form-label">Nombre</label>
-            <input type="text" class="form-control" id="nombreUsuario" aria-describedby="nombreHelp">
+            <input type="text" class="form-control" id="nombre" aria-describedby="nombreHelp" required>
         </div>
         <div class="mb-3">
             <label for="marcaProducto" class="form-label">Marca</label>
-            <input type="email" class="form-control" id="marcaProducto">
+            <input type="text" class="form-control" id="marca" required>
         </div>
         <div class="mb-3">
-            <label for="" class="form-label">Otro</label>
-            <input type="email" class="form-control" id="">
+            <label for="" class="form-label">Categoria</label>
+            <input type="text" class="form-control" id="categoria" required>
         </div>
         <div class="mb-3">
-            <label for="" class="form-label">Otro</label>
-            <input type="email" class="form-control" id="">
+            <label for="" class="form-label">Stock</label>
+            <input type="number" class="form-control" id="" required>
         </div>
-        <button type="submit" class="btn btn-primary">Cambiar</button>
+        <button type="submit" class="btn btn-primary">Añadir</button>
     </form>
     <a name="" id="" class="btn btn-danger btn-lg m-2" href="adminProducto.html" role="button">Volver</a>
 </body>
+<script src="js/admin.js"></script>
 
 </html>
